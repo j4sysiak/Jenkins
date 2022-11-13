@@ -22,9 +22,9 @@ pipeline {
             	   credentialsId: 'nexus3',
                    groupId: 'in.javahome',
                    nexusUrl: 'localhost:8081',
-                   nexusVersion: 'nexus2',
+                   nexusVersion: 'nexus3',
                    protocol: 'http',
-                   repository: 'http://localhost:8081/repository/simpleapp-release',
+                   repository: 'simpleapp-release',
                    version: '1.0.0'
 	        }
 	    }
